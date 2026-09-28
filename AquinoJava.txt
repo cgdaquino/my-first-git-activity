@@ -1,0 +1,29 @@
+Java Program: Hello World
+Author: Casey Aquino
+
+What is Java?
+Java is a popular, object-oriented programming language. It is
+used for desktop apps, Android apps, web backends, and more.
+Java code is compiled into bytecode that runs on the Java Virtual
+Machine (JVM), so the same program can run on any operating system.
+
+Sample Program (HelloWorld.java):
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+How it works:
+- public class HelloWorld : declares a class named HelloWorld. The
+  file name must match the class name.
+- public static void main(String[] args) : the entry point. The JVM
+  starts running the program here.
+- System.out.println("Hello, World!") : prints the text to the screen.
+
+How to run it:
+1. Save the code as HelloWorld.java
+2. Compile: javac HelloWorld.java
+3. Run: java HelloWorld
+4. Output: Hello, World!
